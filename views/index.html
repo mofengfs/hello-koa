@@ -6,22 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/base.css">
 </head>
 
 <body>
 
-    <% include public/header.html %>
-
-    <h1><%= userinfo %></h1>
-
-    <ul>
-
-        <%for(let i=0;i<arr.length;i++) {%>
-        <li><%= arr[i] %></li>
-        <%}%>
-
-    </ul>
-
+    <h1>hello cookie</h1>
+    <p>用户名：<%= userinfo %></p>
 </body>
 
 </html>
